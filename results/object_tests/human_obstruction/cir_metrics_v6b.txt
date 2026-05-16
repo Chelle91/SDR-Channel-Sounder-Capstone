@@ -1,0 +1,12 @@
+TX samples: 1023
+RX samples: 1000000
+Peak index: 550474
+Peak value: 1.0
+Mean floor: 0.03551521524786949
+Peak-to-mean ratio: 28.156946057980928
+Metric gate samples: +/- 50
+Metric gate us: +/- 200.0
+Threshold used for gated delay spread: -15 dB
+Gated mean delay (us): -6.2227488191014375
+Gated RMS delay spread (us): 114.03285229365109
+Gated excess delay span (us): 396.0
