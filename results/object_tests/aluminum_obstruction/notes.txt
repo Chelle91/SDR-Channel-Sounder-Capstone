@@ -1,1 +1,11 @@
-Add notes: distance, object, environment, date
+Scenario: Aluminum obstruction between TX and RX
+Environment: Indoor obstructed propagation test
+
+Obstruction Characteristics:
+- Metallic reflective obstruction
+- Positioned directly in LOS path
+
+Observations:
+- Reduced correlation floor
+- Strong dominant peak retained
+- Noticeable multipath reflections introduced
