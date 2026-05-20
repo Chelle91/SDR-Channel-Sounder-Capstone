@@ -1,1 +1,11 @@
-Add notes: distance, object, environment, date
+Scenario: Outdoor obstructed propagation test
+Environment: Outdoor walkway / open-area test
+
+Obstruction Characteristics:
+- Partial LOS obstruction
+- Environmental reflections from nearby structures
+
+Observations:
+- Increased multipath structure relative to outdoor LOS
+- Moderate RMS delay spread increase
+- Secondary reflection peaks visible
