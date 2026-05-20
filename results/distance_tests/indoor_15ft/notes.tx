@@ -1,0 +1,12 @@
+Scenario: Indoor LOS at 15 ft
+Environment: Indoor hallway / room environment
+TX/RX Configuration:
+- USRP B200 pair
+- 2.45 GHz center frequency
+- 250 kS/s sample rate
+- PN sequence sounding
+
+Observations:
+- Strong dominant correlation peak observed
+- Increased RMS delay spread relative to shorter distances
+- Multipath reflections visible in CIR and PDP outputs
