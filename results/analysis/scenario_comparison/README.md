@@ -34,3 +34,18 @@ The plots and exported metrics summarize:
 - Correlation floor behavior
 
 These early-stage experiments informed the later refined indoor/outdoor and bandwidth-focused propagation studies included elsewhere in the repository.
+
+## Purpose
+
+These experiments were used to:
+
+- Validate SDR synchronization and capture functionality
+- Confirm repeatable CIR extraction
+- Establish initial propagation metrics
+- Compare early multipath behavior across representative scenarios
+
+## Notes
+
+Documentation for these initial experiments is less detailed than later structured testing phases because these measurements were collected during early system validation and pipeline development.
+
+The later `distance_tests/`, `object_tests/`, and `outdoor_tests/` directories contain more formally structured experimentation and expanded documentation.

@@ -6,6 +6,36 @@ This project implements an SDR-based wireless channel sounder using USRP B200 so
 
 The goal is to measure and visualize how wireless signals propagate in real environments, including indoor multipath, object obstruction, distance variation, and outdoor line-of-sight/non-line-of-sight behavior.
 
+# Final Deliverables
+
+- [Final Technical Report (PDF)](docs/final_report/SDR_Channel_Sounder_Final_Report.pdf)
+- [Final Presentation](presentation/final_presentation.pdf)
+- [Project Repository](.)
+
+## Quick Links
+
+- Experimental results: `results/`
+- Signal-processing scripts: `scripts/signal_processing/`
+- Analysis scripts: `scripts/analysis/`
+- SDR capture scripts: `scripts/sdr_capture/`
+
+## Repository Overview
+
+This repository contains the complete implementation, experimentation, analysis, and documentation for an SDR-based wireless channel sounder developed using Ettus USRP B200 software-defined radios.
+
+The project focused on extracting and analyzing wireless channel impulse responses across multiple indoor and outdoor propagation environments using pseudo-random sequence transmission, offline IQ processing, and comparative propagation analysis.
+
+Key implemented capabilities include:
+
+- Over-the-air SDR transmission and reception
+- CIR and PDP extraction
+- Indoor LOS and obstruction testing
+- Outdoor propagation analysis
+- Bandwidth-dependent resolution analysis
+- Coherence bandwidth estimation
+- FFT-based frequency-selective fading analysis
+- Comparative visualization and overlay generation
+
 ## Project Status
 
 The minimum viable product (MVP) has been completed and validated.
